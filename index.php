@@ -67,21 +67,32 @@
                     <div class="col-xs-12 col-sm-4">
                         <a href="#"><img src="img/madmax.jpg" class="img-responsive"></a>
                         <h4>Mad Max: Fury Road</h4>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+
                     </div>
                     <div class="col-xs-12 col-sm-4">
                         <a href="#"><img src="img/madmax.jpg" class="img-responsive"></a>
+                        <h4>Mad Max: Fury Road</h4>
                     </div>
                     <div class="col-xs-12 col-sm-4">
                         <a href="#"><img src="img/madmax.jpg" class="img-responsive"></a>
+                        <h4>Mad Max: Fury Road</h4>
                     </div>
                     <div class="col-xs-12 col-sm-4">
                         <a href="#"><img src="img/madmax.jpg" class="img-responsive"></a>
+                        <h4>Mad Max: Fury Road</h4>
                     </div>
                     <div class="col-xs-12 col-sm-4">
                         <a href="#"><img src="img/madmax.jpg" class="img-responsive"></a>
+                        <h4>Mad Max: Fury Road</h4>
                     </div>
                     <div class="col-xs-12 col-sm-4">
                         <a href="#"><img src="img/madmax.jpg" class="img-responsive"></a>
+                        <h4>Mad Max: Fury Road</h4>
                     </div>                    
                 </div>
                 
