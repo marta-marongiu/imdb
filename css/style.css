@@ -3,8 +3,223 @@ header {
   height: 600px;
   background-image: url("../img/martian.jpg");
   background-size: cover;
+  font-family: 'Lato', sans-serif;
+  padding: 0 3%;
 }
 header .navbar {
   background-color: transparent;
   border: none;
+}
+header .navbar .navbar-collapse {
+  text-align: center;
+  margin-top: 1%;
+}
+header .navbar .navbar-collapse .navbar-nav {
+  display: inline-block;
+  float: none;
+  margin-top: 15px;
+}
+header .navbar .navbar-collapse .navbar-nav li {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+header .navbar .navbar-collapse .navbar-nav li a {
+  color: #fefefe;
+  margin-left: 15px;
+}
+header .navbar .navbar-collapse .navbar-nav li a:hover {
+  color: #e5bc00;
+}
+header .navbar .navbar-collapse .settings li:nth-child(2) a {
+  margin-left: 0;
+  padding: 10px 30px 15px 0;
+}
+header .navbar .navbar-collapse .settings a i {
+  color: #dbc7a3;
+}
+header .navbar .navbar-collapse .settings a img {
+  border-radius: 300px;
+}
+header .main-selection {
+  margin-top: 10%;
+  margin-left: 15%;
+  box-sizing: border-box;
+}
+header .main-selection h1 {
+  font-size: 60px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fefefe;
+}
+header .main-selection .film-category {
+  font-family: 'Lato', sans-serif;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 0;
+  margin-bottom: 3%;
+}
+header .main-selection .film-category li {
+  float: left;
+  color: #fefefe;
+  text-transform: uppercase;
+  padding-right: 4%;
+}
+header .main-selection .film-category li a {
+  box-sizing: border-box;
+  color: #fefefe;
+}
+header .main-selection .film-category li a:hover {
+  text-decoration: none;
+}
+header .main-selection .save-the-date {
+  margin-top: 80px;
+}
+header .main-selection .save-the-date h3 {
+  color: #fefefe;
+}
+header .main-selection .save-the-date p {
+  color: #e5bc00;
+}
+header .main-selection .btn {
+  background-color: #e5bc00;
+  border-radius: 25px;
+  border-style: none;
+  padding: 10px 15px;
+}
+.options {
+  overflow: hidden;
+  margin-top: -50px;
+  background-color: #fefefe;
+}
+.options .navbar {
+  background-color: transparent;
+  border: none;
+}
+.options .navbar .navbar-collapse {
+  text-align: center;
+  margin-top: 1%;
+}
+.options .navbar .navbar-collapse .navbar-nav {
+  display: inline-block;
+  margin-top: 15px;
+}
+.options .navbar .navbar-collapse .navbar-nav li {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.options .navbar .navbar-collapse .navbar-nav li a {
+  color: #000000;
+  margin-left: 20px;
+}
+.options .navbar .navbar-collapse .navbar-nav li a:hover {
+  color: #e5bc00;
+}
+.options .navbar .navbar-collapse .navbar-nav li .like {
+  background-color: #e5bc00;
+  color: #fefefe;
+  border: none;
+}
+.options .view-type i {
+  padding-left: 30px;
+  color: #bbbbbb;
+}
+.options .view-type i:nth-child(2) {
+  color: #585858;
+}
+.options .filter-bar {
+  position: relative;
+  top: -20px;
+}
+.options .form-control {
+  border: none;
+  border-bottom: 1px solid #bbbbbb;
+  box-shadow: none;
+  position: relative;
+  top: -15px;
+}
+.options .input-group-btn button {
+  position: relative;
+  top: -14px;
+  border: none;
+  border-bottom: 1px solid #bbbbbb;
+}
+.options .input-group-btn button i {
+  color: #bbbbbb;
+}
+.options .card {
+  box-shadow: 0 10px 8px 0 #bbbbbb;
+  margin-top: 20px;
+}
+.options .card img {
+  width: 100%;
+}
+.options .card h4 {
+  text-transform: uppercase;
+}
+.options .card ul {
+  list-style: none;
+  padding-left: 0;
+}
+.options .card ul li {
+  display: inline-block;
+  text-align: left;
+}
+.options .card ul li a {
+  color: #e5bc00;
+}
+.options .card span {
+  font-size: 20px;
+}
+.options .card span i {
+  padding-right: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.options .card:after {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 50px 50px;
+  border-color: transparent transparent #e5bc00 transparent;
+  bottom: 0;
+  right: 15px;
+  position: absolute;
+  z-index: 2;
+}
+.options .card:before {
+  content: "+";
+  font-size: 22px;
+  font-weight: normal;
+  color: #fefefe;
+  position: absolute;
+  z-index: 6;
+  bottom: 0;
+  right: 22px;
+}
+.options .scroll img {
+  padding-top: 30px;
+}
+footer {
+  color: #bbbbbb;
+  overflow: hidden;
+}
+footer .logo-bottom {
+  display: inline-block;
+  float: none;
+}
+footer .social {
+  display: inline-block;
+  float: none;
+  margin-top: 15px;
+}
+footer .social i {
+  padding: 10px 15px;
+  font-size: 20px;
+}
+footer .copyright {
+  display: inline-block;
+  float: right;
 }
