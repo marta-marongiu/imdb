@@ -1,10 +1,250 @@
 /*File less imdb*/
+@primary-color: #fefefe;
+@secondary-color: #e5bc00;
+@menu-color: #000000;
+@footer-color: #bbbbbb;
+@primary-font: 'Lato', sans-serif;
+@secondary-font: 'Montserrat', sans-serif;
+
 header {
 	height: 600px;
 	background-image: url("../img/martian.jpg");
 	background-size: cover;
+	font-family: @primary-font;
+	padding: 0 3%;
 	.navbar {
 		background-color: transparent;
 		border: none;
+			.navbar-collapse {
+				text-align: center;
+				margin-top: 1%;
+				.navbar-nav {
+					display: inline-block;
+					float: none;
+					margin-top: 15px;
+					li {
+						text-transform: uppercase;
+						letter-spacing: 0.5px;
+						a {
+							color: @primary-color;
+							margin-left: 15px;
+							&:hover {
+								color: @secondary-color;
+							}
+						}
+					}
+				}
+				.settings {
+					li {
+						&:nth-child(2) a {
+							margin-left: 0;
+							padding: 10px 30px 15px 0;
+						}
+					}
+					a {
+						i {
+							color: #dbc7a3;	
+						}
+						img {
+							border-radius: 300px;
+						}
+					}
+				}	
+			}
 	}
+
+	.main-selection {
+		margin-top: 10%;
+		margin-left: 15%;
+		box-sizing: border-box;
+		h1 {
+			font-size: 60px;
+			font-family: 'Montserrat', sans-serif;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			color: @primary-color;
+		}
+		.film-category {
+			font-family: @primary-font;
+			list-style: none;
+			overflow: hidden;
+			padding-left: 0;
+			margin-bottom: 3%;
+			li {
+				float: left;
+				color: @primary-color;
+				text-transform: uppercase;
+				padding-right: 4%;
+				a {
+					box-sizing: border-box;
+					color: @primary-color;
+					&:hover {
+						text-decoration: none;
+					}
+				}
+			}
+		}
+		.save-the-date {
+			margin-top: 80px;
+				h3 {
+					color: @primary-color;
+				}
+				p {
+					color: @secondary-color;
+				}
+		}
+
+		.btn {
+			background-color: @secondary-color;
+			border-radius: 25px;
+			border-style: none;
+			padding: 10px 15px;
+		}
+	}
+}
+
+.options {
+	overflow: hidden;
+	margin-top: -50px;
+	background-color: @primary-color;
+		.navbar {
+		background-color: transparent;
+		border: none;
+			.navbar-collapse {
+				text-align: center;
+				margin-top: 1%;
+				.navbar-nav {
+					display: inline-block;
+					margin-top: 15px;
+					li {
+						text-transform: uppercase;
+						letter-spacing: 0.5px;
+						a {
+							color: @menu-color;
+							margin-left: 20px;
+							&:hover {
+								color: @secondary-color;
+							}
+						}
+						.like {
+							background-color: @secondary-color;
+							color: @primary-color;
+							border: none;
+						}
+					}
+				}
+			}
+		}
+		.view-type {
+			i {
+				padding-left: 30px;
+				color: @footer-color;
+				&:nth-child(2) {
+					color: #585858;
+				}
+			}
+		}
+		.filter-bar{
+			position: relative;
+			top: -20px;
+		}
+		.form-control {
+			border: none;
+			border-bottom: 1px solid @footer-color;
+			box-shadow: none;
+			position: relative;
+			top: -15px;
+		}
+		.input-group-btn button{
+			position: relative;
+			top: -14px;
+			border: none;
+			border-bottom: 1px solid @footer-color;
+			i {
+				color: @footer-color;
+			}
+		}
+		.card {
+			box-shadow: 0 10px 8px 0 @footer-color;
+			margin-top: 20px;
+			img {
+				width: 100%;
+			}
+			h4 {
+				text-transform: uppercase;
+			}
+			ul {
+				list-style: none;
+				padding-left: 0;
+				li { 
+					display: inline-block;
+					text-align: left;
+					a {
+						color: @secondary-color;
+					}
+				}
+			}
+			span {
+				font-size: 20px;
+				i {
+					padding-right: 10px;
+					font-size: 20px;
+					margin-bottom: 10px;
+				}
+			}
+		&:after {
+			content: "";
+		    display: inline-block;
+		    width: 0;
+		    height: 0;
+		    border-style: solid;
+		    border-width: 0 0 50px 50px;
+		    border-color: transparent transparent #e5bc00 transparent;
+		    position: absolute;
+		    bottom: 0;
+		    right: 15px;
+		    position: absolute;
+		    z-index: 2;
+		}
+		&:before {
+			content: "+";
+			font-size: 22px;
+			font-weight: normal;
+			color: @primary-color;
+			position: absolute;
+			z-index: 6;
+			bottom: 0;
+			right: 22px;
+		}
+		}
+
+		.scroll {
+			img {
+			padding-top: 30px;
+		}
+		}
+}
+
+
+footer {
+	color: @footer-color;
+	overflow: hidden;
+		.logo-bottom {
+			display: inline-block;
+			float: none;
+		}
+		.social {
+			display: inline-block;
+			float: none;
+			margin-top: 15px;
+			i {
+				padding: 10px 15px;
+				font-size: 20px;
+			}
+
+		}
+		.copyright {
+			display: inline-block;
+			float: right;
+		}
 }
